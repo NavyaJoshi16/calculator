@@ -1,11 +1,11 @@
 /* Base button styling */
 .calc-btn {
-  padding: 1.25rem;
+  padding: 1.30rem;
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -16,12 +16,12 @@
 }
 .calc-btn:active {
   transform: scale(0.95);
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Color themes */
 .calc-btn.bg-red-500 {
-  background: #ef4444;
+  background: #ef4443;
   color: white;
 }
 .calc-btn.bg-yellow-400 {
